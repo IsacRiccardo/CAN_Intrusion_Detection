@@ -39,4 +39,10 @@ The GLOBAL_VAR file will have parameters that will determine:
 * If the model trained will be saved for further usage
 
 # Execution
-Run main.py to start the evaluation
+
+## Prerequesites
+* Python installed
+
+## Start execution
+Execute run.bat to start
+

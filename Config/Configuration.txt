@@ -1,0 +1,22 @@
+[Paths]
+DATASETS_FOLDER=./Datasets/
+PATH_TO_MODEL_REPORT=./Reports/
+PATH_TO_MODEL_SAVE=./Models/
+
+[DatasetTypes]
+COMBINED=Combined/
+FUZZY=Fuzzy/
+REPLAY=Replay/
+
+[Vehicles]
+VEHICLE_A=Vehicle A/
+VEHICLE_B=Vehicle B/
+VEHICLE_C=Vehicle C/
+
+[ModelParameters]
+TRAINING_SIZE=0.7
+
+[Macros]
+MODEL_SAVE_ENABLE=False
+REPORT_ENABLE=True
+PLOT_CM=False
