@@ -38,6 +38,15 @@ if %ERRORLEVEL% NEQ 0 (
     exit /b
 )
 
+:: Run the Python evaluation script
+echo Running the evaluation script...
+python Scripts/evaluation.py
+if %ERRORLEVEL% NEQ 0 (
+    echo Script execution failed.
+    exit /b
+)
+echo The evaluation csv files has been saved.
+
 :: Deactivate the virtual environment
 echo Deactivating virtual environment...
 deactivate
